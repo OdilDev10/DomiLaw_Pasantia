@@ -1,0 +1,26 @@
+ODINECK TECHNOLOGY PROPRIETARY LICENSE
+
+Copyright (c) 2025 OdiNeck Technology. All rights reserved.
+
+This software and associated documentation files (the "Software") are the proprietary 
+and confidential property of OdiNeck Technology. The Software is protected by intellectual 
+property laws including but not limited to copyright laws.
+
+RESTRICTIONS:
+Any form of reproduction, distribution, modification, adaptation, translation, 
+or creation of derivative works based on the Software, in whole or in part, is 
+strictly prohibited without the explicit written permission of OdiNeck Technology.
+
+DISCLAIMER:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+For licensing inquiries, please contact:
+odil.martinez@odineck.com
+
+© 2025 OdiNeck Technology. All rights reserved.

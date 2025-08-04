@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="2rem" height="2rem" aria-label="Logo Servitial" role="img">
+  <defs>
+    <linearGradient id="grad-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"/>
+      <stop offset="100%" stop-color="#BD34FE"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes pulse {
+        0% { transform: scale(1); filter: drop-shadow(0 0 6px rgba(66,209,255,0.6)); }
+        50% { transform: scale(1.05); filter: drop-shadow(0 0 12px rgba(189,52,254,0.8)); }
+        100% { transform: scale(1); filter: drop-shadow(0 0 6px rgba(66,209,255,0.6)); }
+      }
+    </style>
+  </defs>
+
+  <!-- Fondo sutil con gradiente y opacidad para profundidad -->
+  <path
+    d="M32 6L6 16L32 26L58 16L32 6Z"
+    fill="url(#grad-primary)"
+    opacity="0.2"
+    transform="translate(0 2)"
+  />
+
+  <!-- Estructura principal -->
+  <g filter="url(#glow)" style="animation: pulse 2s infinite; transform-origin:center;">
+    <path d="M32 8L8 18L32 28L56 18L32 8Z" fill="url(#grad-primary)"/>
+    <path d="M8 38L32 48L56 38" stroke="url(#grad-primary)" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M8 28L32 38L56 28" stroke="url(#grad-primary)" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Detalle interior para dar “stack” -->
+    <path d="M32 14L14 22L32 30L50 22L32 14Z" fill="white" opacity="0.08"/>
+  </g>
+</svg>
